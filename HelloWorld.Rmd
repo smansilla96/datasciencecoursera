@@ -1,0 +1,27 @@
+---
+title: "HelloWorld"
+author: "Sergio Mansilla"
+date: "5/31/2020"
+output: pdf_document
+
+---
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
+## This is a Markdown file
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
